@@ -18,13 +18,13 @@ const iconMap: Record<string, React.ReactNode> = {
 
 export default function App() {
   const [lang, setLang] = useState<string>(() => {
-    return localStorage.getItem('language') || 'ar';
+    return localStorage.getItem('language') || 'en';
   });
 
   const [isLangOpen, setIsLangOpen] = useState(false);
   const [isSwitchingLang, setIsSwitchingLang] = useState(false);
 
-  const agreementData: AgreementData = translations[lang] || translations['ar'];
+  const agreementData: AgreementData = translations[lang] || translations['en'];
   const isRtl = lang === 'ar';
   const dir = isRtl ? 'rtl' : 'ltr';
 
