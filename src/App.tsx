@@ -197,7 +197,7 @@ export default function App() {
         <div className="border-t border-white/[0.05] bg-[#0a0b0e]/95 backdrop-blur-lg pb-10 pt-6 text-center shrink-0 z-20 relative">
           <div className="w-1/2 h-[1px] bg-gradient-to-r from-transparent via-amber-900/30 to-transparent mx-auto mb-4" />
           <p className="text-xs font-medium text-zinc-500 tracking-wide">
-            {agreementData.footerDesigner} <span className="font-mono font-bold text-amber-600/80 tracking-widest text-[13px] ms-1">ALFA</span>
+            {agreementData.footerDesigner} <span className="font-mono font-bold text-amber-600/80 tracking-widest text-[13px] ms-1">ALPHA</span>
           </p>
           <span className="text-[10px] text-zinc-600 font-medium mt-3 block tracking-wider uppercase">
             {agreementData.footerKingdom} • {new Date().getFullYear()}
