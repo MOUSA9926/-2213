@@ -1,0 +1,6 @@
+{
+  "name": "اتفاقية مملكة 2213",
+  "description": "واجهة الجوال لاتفاقية عدم الاعتداء (NAP10) لمملكة 2213",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
